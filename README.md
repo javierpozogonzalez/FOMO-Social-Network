@@ -90,6 +90,6 @@ This project adopts a modern **Serverless-first** approach to ensure high scalab
 
 ---
 
-> **Note:** This repository serves as a **public showcase**. The full source code is private as the product is scheduled for commercial launch in **February 2026**.
+> **Note:** This repository serves as a **public showcase**. The full source code is private as the product is scheduled for commercial launch in **April 2026**.
 
 *Developed by Javier Pozo*
