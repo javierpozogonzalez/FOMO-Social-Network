@@ -55,6 +55,10 @@ web-build/
 .env.local
 .env.*.local
 
+# Firebase configuration generated from .env
+google-services.json
+GoogleService-Info.plist
+
 # Temporary files
 *.log
 *.tmp
