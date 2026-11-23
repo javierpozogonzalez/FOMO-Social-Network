@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "FOMO",
+    "slug": "fomo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fomoLogoPequeno.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/fomoLogoGrande.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fomo.app",
+      "usesAppleSignIn": false,
+      "usesPushNotifications": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "FOMO necesita acceso a tu galería para que puedas subir tu foto de perfil.",
+        "NSPhotoLibraryAddUsageDescription": "FOMO necesita acceso a tu galería para guardar fotos.",
+        "NSUserTrackingUsageDescription": "Usamos las notificaciones para avisarte de actividades importantes."
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/fomoLogoPequeno.png",
+        "backgroundColor": "#1a1a1a"
+      },
+      "package": "com.fomo.mobile",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/fomoLogoPequeno.png"
+    },
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FOMO necesita acceso a tu galería para que puedas subir tu foto de perfil."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow FOMO to use your location to find nearby events."
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/analytics"
+    ]
+  }
+}

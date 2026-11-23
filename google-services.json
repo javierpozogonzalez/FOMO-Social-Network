@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "548503984704",
+    "project_id": "fomo-analytics",
+    "storage_bucket": "fomo-analytics.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548503984704:android:5dbe7c5ed7ffc786a95da5",
+        "android_client_info": {
+          "package_name": "com.fomo.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAx26yngKaS0H7Wfc2RhVkJIDjcVzABn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
